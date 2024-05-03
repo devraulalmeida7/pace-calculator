@@ -29,6 +29,8 @@ const PaceCalculator = () => {
       />
       <Button title="Calculate Pace" onPress={calculatePace} />
       <Text style={styles.result}>Pace: {pace.toFixed(2)} minutes per mile</Text>
+
+      <Text>Projeto Price criado</Text>
     </View>
   );
 };
